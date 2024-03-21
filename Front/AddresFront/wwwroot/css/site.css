@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar {
+    background-color: #c0c0c0;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #009C9A;
+}
+
+.titulo {
+    color: #273656;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+.footer {
+    background-color: #273656;
+    color:#d8ffff ;
+}
+
+.logoHeader {
+    margin: 10px;
+    height: 80px;
+    width: auto; 
+}
+
+.alinearIzq {
+    text-align: left;
+}
+
+.alinearDer {
+    text-align: right;
+}
+
+.btn-agr {
+    background-color: #009C9A;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}

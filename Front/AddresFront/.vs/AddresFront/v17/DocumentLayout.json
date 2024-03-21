@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|e:\\prueba tecnica adres\\front\\addresfront\\views\\home\\adquisicion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|solutionrelative:views\\home\\adquisicion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|e:\\prueba tecnica adres\\front\\addresfront\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|e:\\prueba tecnica adres\\front\\addresfront\\views\\home\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|solutionrelative:views\\home\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|e:\\prueba tecnica adres\\front\\addresfront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|e:\\prueba tecnica adres\\front\\addresfront\\servicios\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4680491-2CAE-4E4B-BD87-316FD06DF1AA}|AddresFront.csproj|solutionrelative:servicios\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T21:40:18.507Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T21:46:22.386Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adquisicion.cshtml",
+              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Adquisicion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Adquisicion.cshtml",
+              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Adquisicion.cshtml",
+              "RelativeToolTip": "Views\\Home\\Adquisicion.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T20:48:45.983Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Servicios\\Servicio.cs",
+              "RelativeDocumentMoniker": "Servicios\\Servicio.cs",
+              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Servicios\\Servicio.cs",
+              "RelativeToolTip": "Servicios\\Servicio.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAjwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T21:26:58.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Historial.cshtml",
+              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Historial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Historial.cshtml",
+              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\Views\\Home\\Historial.cshtml",
+              "RelativeToolTip": "Views\\Home\\Historial.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAjwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T21:29:13.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+﻿
+@model List<Historial>
+
+@{
+    ViewData["Title"] = "Historial de Adquisiciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Estilos {
+    <link href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.css" rel="stylesheet" />
+}
+<h1 titulo>Historial de Adquisiciones</h1>
+
+<div class="row">
+
+        <table id="tbHistorial" class="display" style="width:100%">
+            <thead>
+                <th>Id</th>
+                <th>Tipo Registro</th>
+                <th>Fecha Registro</th>
+                <th>Presupuesto</th>
+                <th>Unidad Administrativa</th>
+                <th>Bienes o Servicios</th>
+                <th>Cantidad</th>
+                <th>Valor Unitario</th>
+                <th>Valor Total</th>
+                <th>Fecha Adquisicion</th>
+                <th>Entidad Proveedora</th>
+                <th>Documentacion</th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdAdquisicion</td>
+                        @if (item.Tipo == "C")
+                        {
+                            <td>Creación</td>
+                        }
+                        else
+                        {
+                            <td>Actualización</td>
+                        }
+                        <td>@item.Fecha</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().Presupuesto</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().UnidadAdministrativa</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().BienesServicios</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().Cantidad</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().ValorUnitario</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().ValorTotal</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().FechaAdquisicion</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().EntidadProveedora</td>
+                        <td>@item.Adquisiciones.FirstOrDefault().Documentacion</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+</div>
+@section Scripts {
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tbHistorial').DataTable({
+                "language": {
+                    url: "https://cdn.datatables.net/plug-ins/2.0.2/i18n/es-ES.json"
+                }
+            })
+        })
+    </script>
+}

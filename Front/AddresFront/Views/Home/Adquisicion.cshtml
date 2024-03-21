@@ -1,0 +1,70 @@
+﻿@model Adquisicion
+@{
+    ViewData["Title"] = "Adquisiciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Adquisicion</h1>
+<div class="card">
+    <div class="card-header">
+        @ViewBag.Accion
+    </div>
+    <div class="card-body">
+        </br>
+        <form asp-action="GuardarCambios" asp-controller="Home" method="post">
+
+            <input asp-for="Id" type="hidden">
+            <div class="row">
+                <div class="col-sm-6 mb-2">
+                    <label class="form-label">Prespuesto</label>
+                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Presupuesto" required />
+                </div>
+                <div class="col-sm-6 mb-2">
+                    <label class="form-label">Unidad Administrativa</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="UnidadAdministrativa" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Bien o Servicio</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="BienesServicios" required />
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Cantidad</label>
+                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Cantidad" required />
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Valor Unitario</label>
+                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorUnitario" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Valor Total</label>
+                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorTotal" required />
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Fecha Adquisición</label>
+                    <input type="date" class="form-control form-control-sm" asp-for="FechaAdquisicion" required />
+                </div> 
+                <div class="col-sm-4 mb-2">
+                    <label class="form-label">Entidad Proveedora</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="EntidadProveedora" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-2">
+                    <label class="form-label">Documentación</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="Documentacion" required />
+                </div>
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-success btn-sm">Guardar Cambios</button>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-warning btn-sm">Volver</a>
+        </form>
+    </div>
+</div>
+<script>
+    //onkeypress = "return valideKey(event);"
+
+</script>

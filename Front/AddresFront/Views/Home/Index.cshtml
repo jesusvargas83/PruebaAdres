@@ -1,0 +1,67 @@
+﻿@model List<Adquisicion> 
+
+@{
+    ViewData["Title"] = "Gestión de Adquisiciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Estilos{
+    <link href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.css" rel="stylesheet"/>
+}
+<h1 titulo>Gestión de Adquisiciones</h1>
+<div class="row"> &nbsp;</div>
+<div class="row">
+        <div class="col-md-3">
+            <a asp-action="Adquisicion" asp-controller="Home" asp-route-id="0" class="btn btn-agr btn-sm">Nueva Adquisición</a>
+        </div>
+       
+        
+    <div class="row"> &nbsp;</div>
+    <hr />
+         <table id="tbadquisiciones" class="display" style="width:100%">
+            <thead>
+                <th>Presupuesto</th>
+                <th>Unidad Administrativa</th>
+                <th>Bienes o Servicios</th>
+                <th>Cantidad</th>
+                <th>Valor Unitario</th>
+                <th>Valor Total</th>
+                <th>Fecha Adquisicion</th>
+                <th>Entidad Proveedora</th>
+                <th>Documentacion</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Presupuesto</td>
+                        <td>@item.UnidadAdministrativa</td>
+                        <td>@item.BienesServicios</td>
+                        <td>@item.Cantidad</td>
+                        <td>@item.ValorUnitario</td>
+                        <td>@item.ValorTotal</td>
+                        <td>@item.FechaAdquisicion</td>
+                        <td>@item.EntidadProveedora</td>
+                        <td>@item.Documentacion</td>
+                        <td><a asp-action="Adquisicion" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a></td>
+                        <td><a asp-action="Eliminar" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+ 
+</div>
+@section Scripts{
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tbadquisiciones').DataTable({
+                "language": {
+                    url: "https://cdn.datatables.net/plug-ins/2.0.2/i18n/es-ES.json"
+                }
+            })
+        })
+    </script>
+}

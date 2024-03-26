@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\",
+  "WorkspaceRootPath": "E:\\PRUEBAADRES\\Back\\AdresBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\prueba tecnica adres\\back\\adresback\\adresback\\controllers\\adquisicioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\pruebaadres\\back\\adresback\\adresback\\controllers\\adquisicioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|solutionrelative:adresback\\controllers\\adquisicioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\prueba tecnica adres\\back\\adresback\\adresback\\models\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\pruebaadres\\back\\adresback\\adresback\\models\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|solutionrelative:adresback\\models\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\prueba tecnica adres\\back\\adresback\\adresback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\pruebaadres\\back\\adresback\\adresback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|solutionrelative:adresback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\prueba tecnica adres\\back\\adresback\\adresback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|e:\\pruebaadres\\back\\adresback\\adresback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AFC53CB3-F92D-4840-AF5E-F170FA87C1CB}|AdresBack\\AdresBack.csproj|solutionrelative:adresback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -32,39 +32,37 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\appsettings.json",
+              "DocumentMoniker": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\appsettings.json",
               "RelativeDocumentMoniker": "AdresBack\\appsettings.json",
-              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\appsettings.json",
+              "ToolTip": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\appsettings.json",
               "RelativeToolTip": "AdresBack\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-18T19:16:10.744Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Program.cs",
+              "DocumentMoniker": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Program.cs",
               "RelativeDocumentMoniker": "AdresBack\\Program.cs",
-              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Program.cs",
+              "ToolTip": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Program.cs",
               "RelativeToolTip": "AdresBack\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T19:17:28.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdquisicionController.cs",
-              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Controllers\\AdquisicionController.cs",
+              "DocumentMoniker": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Controllers\\AdquisicionController.cs",
               "RelativeDocumentMoniker": "AdresBack\\Controllers\\AdquisicionController.cs",
-              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Controllers\\AdquisicionController.cs",
+              "ToolTip": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Controllers\\AdquisicionController.cs",
               "RelativeToolTip": "AdresBack\\Controllers\\AdquisicionController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAewFgAAAA+AAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAewFsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T15:26:25.439Z",
               "IsPinned": true,
@@ -74,15 +72,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Historial.cs",
-              "DocumentMoniker": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Models\\Historial.cs",
+              "DocumentMoniker": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Models\\Historial.cs",
               "RelativeDocumentMoniker": "AdresBack\\Models\\Historial.cs",
-              "ToolTip": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\Models\\Historial.cs",
+              "ToolTip": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\Models\\Historial.cs",
               "RelativeToolTip": "AdresBack\\Models\\Historial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T21:26:20.397Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

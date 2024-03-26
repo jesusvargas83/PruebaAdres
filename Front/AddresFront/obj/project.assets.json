@@ -9553,11 +9553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\AddresFront.csproj",
+      "projectUniqueName": "E:\\PRUEBAADRES\\Front\\AddresFront\\AddresFront.csproj",
       "projectName": "AddresFront",
-      "projectPath": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\AddresFront.csproj",
+      "projectPath": "E:\\PRUEBAADRES\\Front\\AddresFront\\AddresFront.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "E:\\PRUEBA TECNICA ADRES\\Front\\AddresFront\\obj\\",
+      "outputPath": "E:\\PRUEBAADRES\\Front\\AddresFront\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",

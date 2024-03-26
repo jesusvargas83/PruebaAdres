@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-6 mb-2">
                     <label class="form-label">Prespuesto</label>
-                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Presupuesto" required />
+                    <input type="text" pattern="[0-9]+([\.,][0-9]+)?" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Presupuesto" required />
                 </div>
                 <div class="col-sm-6 mb-2">
                     <label class="form-label">Unidad Administrativa</label>
@@ -31,17 +31,17 @@
                 </div>
                 <div class="col-sm-4 mb-2">
                     <label class="form-label">Cantidad</label>
-                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Cantidad" required />
+                    <input type="text" pattern="[0-9]+([\.,][0-9]+)?" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="Cantidad" required />
                 </div>
                 <div class="col-sm-4 mb-2">
                     <label class="form-label">Valor Unitario</label>
-                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorUnitario" required />
+                    <input type="text" pattern="[0-9]+([\.,][0-9]+)?" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorUnitario" required />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 mb-2">
                     <label class="form-label">Valor Total</label>
-                    <input type="text" pattern="[0-9]+" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorTotal" required />
+                    <input type="text" pattern="[0-9]+([\.,][0-9]+)?" placeholder="Ingrese solo números" class="form-control form-control-sm" asp-for="ValorTotal" required />
                 </div>
                 <div class="col-sm-4 mb-2">
                     <label class="form-label">Fecha Adquisición</label>
@@ -64,7 +64,3 @@
         </form>
     </div>
 </div>
-<script>
-    //onkeypress = "return valideKey(event);"
-
-</script>

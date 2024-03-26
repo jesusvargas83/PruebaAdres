@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddresFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c690e5fbdc3159c5087e6a976d66f2ca34ae61")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddresFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddresFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

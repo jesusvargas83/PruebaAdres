@@ -2487,11 +2487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\AdresBack.csproj",
+      "projectUniqueName": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\AdresBack.csproj",
       "projectName": "AdresBack",
-      "projectPath": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\AdresBack.csproj",
+      "projectPath": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\AdresBack.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "E:\\PRUEBA TECNICA ADRES\\Back\\AdresBack\\AdresBack\\obj\\",
+      "outputPath": "E:\\PRUEBAADRES\\Back\\AdresBack\\AdresBack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",

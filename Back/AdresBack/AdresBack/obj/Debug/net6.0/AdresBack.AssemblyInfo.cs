@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdresBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbc9bfcdf241f25da50f4816170a3e2c4190bdd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdresBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdresBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
